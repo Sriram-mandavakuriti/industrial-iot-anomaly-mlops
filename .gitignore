@@ -25,3 +25,26 @@ mlruns/
 # OS files
 .DS_Store
 Thumbs.db
+
+# Python testing and coverage
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Local virtual environments
+venv/
+ENV/
+
+# IDE and operating system files
+.vscode/
+*.swp
+
+# Local MLflow tracking artifacts
+mlruns/
+
+# Temporary model and report files
+*.bak
+*.old
